@@ -1,0 +1,102 @@
+You are a full-stack AI developer. Build a fully functional MVP of a platform named CarryConnect — a community-driven delivery system.
+
+🚀 Project Overview:
+CarryConnect helps users (Senders) find people (Carriers) who are already traveling a similar route to deliver their packages.
+This saves money, reduces traffic, and lowers carbon emissions.
+
+👤 User Roles:
+Sender – creates a delivery request
+
+Carrier – accepts and completes delivery
+
+🎯 Core Features:
+🔐 User Signup/Login (JWT-based)
+
+📦 Create Delivery Request (pickup, drop location, package size, preferred time)
+
+🔄 Match Carriers to Deliveries based on route
+
+📨 Accept / Reject Deliveries
+
+🚚 Track Delivery Status (Requested → Picked → Delivered)
+
+📋 View Active Deliveries (for both Sender and Carrier)
+
+⭐ Leave Review after delivery
+
+👀 Available Deliveries Page (public – no login required)
+
+🆕 Available Deliveries Feature:
+Add a public route: /available-deliveries
+
+Display all Requested deliveries
+
+Hide sensitive user details
+
+Show:
+
+Pickup Location
+
+Drop Location
+
+Package Size
+
+Delivery Time
+
+If not logged in → show “Login to Accept” button
+
+If logged in as Carrier → show “Accept Delivery” button
+
+🛠️ Tech Stack:
+Frontend: React.js (Tailwind CSS optional)
+
+Backend: Node.js + Express.js
+
+Database: PostgreSQL (Use Neon for free DB)
+
+ORM: Prisma
+
+Authentication: JWT-based
+
+Deployment: Replit (preferred) or provide Vercel + Render instructions
+
+📄 Pages Required:
+Home (intro, login/register options)
+
+Register / Login
+
+Dashboard (Sender and Carrier views)
+
+Create Delivery
+
+View Delivery Requests
+
+Accept / Reject Delivery
+
+Track Delivery Status
+
+Profile + Reviews
+
+✅ Available Deliveries (no login required)
+
+📘 Additional Requirements:
+Provide complete code (frontend + backend)
+
+Seed DB with test users and delivery requests
+
+Add README:
+
+How to run locally
+
+How to deploy on Replit
+
+Dummy Auth (no email/SMS)
+
+Mobile responsive UI
+
+🌟 Bonus (Optional):
+Basic route matching using latitude/longitude
+
+Use static examples like Pune → Mumbai
+
+Add map preview (optional)
